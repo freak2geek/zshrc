@@ -20,7 +20,7 @@ function tryLoadZshrc() {
 	fi
 }
 
-# Wrapper of the custom cd to inject the load behavior
+# Wrapper of cd to inject the load behavior
 function custom_cd() {
 	cd $1
 	tryLoadZshrc $1
