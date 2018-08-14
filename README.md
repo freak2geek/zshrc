@@ -1,6 +1,6 @@
 # zshrc
 
-A zsh plugin to load local ".zshrc" files from your projects.
+A zsh plugin to load local ".zshrc" files from your project scopes.
 
 ## Why
 
