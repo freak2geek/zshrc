@@ -20,11 +20,8 @@ function tryLoadZshrc() {
 	fi
 }
 
-# Wrapper of cd to inject the load behavior
-function custom_cd() {
-	cd $1
-	tryLoadZshrc $1
-}
-alias cd='custom_cd'
+# Try to load zshrc config each time the current working directory is changed.
+chpwd_functions=(${chpwd_functions[@]} "tryLoadZshrc")
 
+# Initial try to load zshrc config.
 tryLoadZshrc
