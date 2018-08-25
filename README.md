@@ -15,6 +15,20 @@ You have gained synchronization and shareability as you can include your zsh con
 
 ## Get started
 
+### Automatic setup
+
+- Download the `zshrc.plugin.zsh` and `setup.sh` files from this repository.
+
+- Run the setup script
+
+``` bash
+source setup.sh
+```
+
+The new terminal instances will support now local `.zshrc` configurations. Enjoy!
+
+### Manual setup
+
 - Download the `zshrc.plugin.zsh` file from this repository.
 
 - Import the plugin within you custom plugin folder. Commonly, `~/.oh-my-zsh/custom/plugins`. But you can check `$ZSH_CUSTOM` env var.
@@ -31,8 +45,6 @@ $ZSH_CUSTOM
 ``` shell
 plugins=(git bundler zshrc)
 ```
-
-The new terminal instances will support now local `.zshrc` configurations. Enjoy!
 
 ## References
 
