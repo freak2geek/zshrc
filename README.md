@@ -1,10 +1,10 @@
 # zshrc
 
-A zsh plugin to load local ".zshrc" files from your projects.
+A zsh plugin to load local ".zshrc" files from your project scopes.
 
 ## Why
 
-[Oh My Zsh](https://ohmyz.sh/) is a terminal implementation that raises up your productivity by describing handy functionality.
+[Oh My Zsh](https://ohmyz.sh/) is a terminal implementation that raises up your productivity by featuring handy functionality.
 Besides, you are enabled to describe your own functionality for each of the projects you work on. However, this customization must be loaded, synchronized and shared manually. This plugin means to help on the automation of such process.
 
 ## How
@@ -17,7 +17,7 @@ You have gained synchronization and shareability as you can include your zsh con
 
 - Download the `zshrc.plugin.zsh` file from this repository.
 
-- Import the plugin within you custom plugin folder. Commonly, `~/.oh-my-zsh/custom/plugin`. But you can check `$ZSH_CUSTOM` env var.
+- Import the plugin within you custom plugin folder. Commonly, `~/.oh-my-zsh/custom/plugins`. But you can check `$ZSH_CUSTOM` env var.
 
 ``` shell
 $ZSH_CUSTOM
