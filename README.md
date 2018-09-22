@@ -15,14 +15,20 @@ You have gained synchronization and shareability as you can include your zsh con
 
 ## Get started
 
+### Requirements
+
+- Unix-like operating system (macOS or Linux)
+
+- [OhMyZsh](https://ohmyz.sh/)
+
+- curl
+
+- git
+
 ### Automatic setup
 
-- Download the `zshrc.plugin.zsh` and `setup.sh` files from this repository.
-
-- Run the setup script
-
 ``` bash
-source setup.sh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/freak2geek/zshrc/master/install.sh)"
 ```
 
 The new terminal instances will support now local `.zshrc` configurations. Enjoy!

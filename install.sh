@@ -3,7 +3,7 @@
 GREEN='\033[0;32m'
 
 PREV_PWD=$PWD
-CUSTOM_PLUGINS=$ZSH_CUSTOM/plugins
+CUSTOM_PLUGINS=$HOME/.oh-my-zsh/custom/plugins
 
 # Prepare & Copy plugin to the plugin folder
 cd $CUSTOM_PLUGINS
