@@ -16,6 +16,6 @@ cd $PREV_PWD
 
 if [[ $(cat ~/.zshrc | grep -ic " zshrc ") -eq "0" ]]; then
     # Add the plugin in the main .zshrc configuration
-    sed -i "" "s/^plugins=(/plugins=( zshrc /" ~/.zshrc
+    sed -i "s/^plugins=(/plugins=( zshrc /" ~/.zshrc
     printf "\n${GREEN}[✔] Installed plugin${NC}\n\n"
 fi
